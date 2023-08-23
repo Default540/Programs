@@ -1,5 +1,4 @@
 package L2;
-
 import java.util.Scanner;
 
 public class E21 {

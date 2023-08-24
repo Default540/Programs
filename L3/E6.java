@@ -19,7 +19,7 @@ public class E6 {
             vencedor = nomeT2;
         }else vencedor = "EMPATE";
 
-        System.out.println(vencedor);
+        System.out.printf("O vercedor é %s\n",vencedor);
 
         in.close();
     }

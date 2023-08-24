@@ -12,23 +12,21 @@ public class E15 {
 
         final int maxH = 24;
         
-        int res = 0;
 
-        if (hI >= maxH) {
-            hI-=maxH;
+        if (hI > maxH) {
+            hI = hI-maxH;
         }
-        if (hF >= maxH) {
-            hF-=maxH;
+        if (hF > maxH) {
+            hF = hF-maxH;
         }
+
+
+        int res = hF-hI;
 
         if (hF<hI) {
-            res = maxH - hI;  
-            hI = 0;  
+            res = maxH - hI + hF;     
         }
 
-        
-        res += hF-hI;
-        
         System.out.println("O jogo durou "+res+"h");
         in.close();
     }

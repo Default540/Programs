@@ -2,7 +2,7 @@ package Ex;
 
 import java.util.Scanner;
 
-public class EX2 {
+public class Ex2 {
     public static void main(String[] args) {
         final Scanner in = new Scanner(System.in);
         System.out.println("Qual o numero de lados do poligono e a medida do lado(cm): ");

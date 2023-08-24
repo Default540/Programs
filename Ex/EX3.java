@@ -2,7 +2,7 @@ package Ex;
 
 import java.util.Scanner;
 
-public class EX3 {
+public class Ex3 {
     public static void main(String[] args) {
         final Scanner in = new Scanner(System.in);
         System.out.println("Qual o valor da primeira, segunda e terceira nota em ordem crescente:");

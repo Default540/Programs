@@ -17,13 +17,10 @@ public class Ex3 {
         int quantN2 = (sacar-quantN3*n3)/n2;
         int quantN1 = (sacar-quantN3*n3-quantN2*n2)/n1;
 
-        if ( (sacar-quantN3*n3-quantN2*n2)/n1 % 2 != 0) {
+        if ( (sacar-quantN3*n3-quantN2*n2) % n1 != 0) {
             System.out.println("Não é possivel dividir");
-        }else
+        }else{
             System.out.printf("É preciso tirar:\n%d notas de %d\n%d notas de %d\n%d notas de %d\n",quantN3,n3,quantN2,n2,quantN1,n1);
-        
-
-        
-        
+        }
     }
 }

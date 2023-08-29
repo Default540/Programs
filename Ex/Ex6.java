@@ -4,19 +4,18 @@ import java.util.Scanner;
 
 public class Ex6 {
     public static void main(String[] args) {
-        // p/a^2
 
         final Scanner in = new Scanner(System.in);
-        System.out.println("Qual seu genero (h=1/m=2), peso e altura:");
+        System.out.println("Qual seu genero (h/m), peso e altura:");
 
-        int g = in.nextInt();
+        char g = in.next().toUpperCase().charAt(0);
         int peso = in.nextInt();
         float altura = in.nextFloat();
 
         float kgm2 = peso/(altura*altura);
         String res = "";
 
-        if (g == 1) {
+        if (g == 'H') {
         
             if (kgm2 < 18) {
                 res = "Abaixo do peso";
@@ -29,7 +28,6 @@ public class Ex6 {
             }else if (kgm2 > 40) {
                 res = "Pessoa com obesidade grave";
             }
-
 
         }else{
          

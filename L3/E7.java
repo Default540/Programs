@@ -6,7 +6,7 @@ public class E7 {
     public static void main(String[] args) {
         final Scanner in = new Scanner(System.in);
         System.out.println("Qual combustivel (A/G) e quantos litros vai comprar: ");
-        String combustivel = in.next();
+        char combustivel = in.next().toUpperCase().charAt(0);
         int litros = in.nextInt();
         final float g = 4.3f;
         final float a = 3.9f;
@@ -14,7 +14,7 @@ public class E7 {
         float desconto;
         float total;
 
-        if (combustivel.equals("A")) {
+        if (combustivel == 'A') {
                 
             if (litros <= 20) {
                 desconto = 0.03f;

@@ -22,5 +22,6 @@ public class Ex3 {
         }else{
             System.out.printf("É preciso tirar:\n%d notas de %d\n%d notas de %d\n%d notas de %d\n",quantN3,n3,quantN2,n2,quantN1,n1);
         }
+        in.close();
     }
 }

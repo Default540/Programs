@@ -16,5 +16,6 @@ public class Ex2 {
         }else if (nLados == 5) {
             System.out.println("Pentagono");
         }else System.out.println("Figura desconhecida.");
+        in.close();
     }
 }

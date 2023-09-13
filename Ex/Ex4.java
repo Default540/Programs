@@ -31,5 +31,6 @@ public class Ex4 {
         int inverso = unidade*1000+dezena*100+centena*10+milhar;
 
         System.out.println(n+" => "+inverso);
+        in.close();
     }
 }

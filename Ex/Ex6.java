@@ -46,6 +46,6 @@ public class Ex6 {
         }
         
         System.out.println("Você faz parte da categoria: "+res);
-        
+        in.close();
     }
 }

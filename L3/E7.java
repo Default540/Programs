@@ -11,8 +11,7 @@ public class E7 {
         final float g = 4.3f;
         final float a = 3.9f;
         
-        float desconto;
-        float total;
+        float desconto,total;
 
         if (combustivel == 'A') {
                 
@@ -23,12 +22,15 @@ public class E7 {
             }
             
             total = a*litros - a*litros*desconto;
+
         }else{ 
+            
             if (litros <= 20) {
                 desconto = 0.04f;
             }else{
                 desconto = 0.06f;
             }
+
             System.out.println(g*litros+" "+g*litros*desconto);
             total = g*litros - g*litros*desconto;
         }

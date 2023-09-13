@@ -32,5 +32,6 @@ public class Ex5 {
         int prodHnMv = hn*mv;
         
         System.out.printf("O homem mais velho tem %d anos\nO homem mais novo tem %d anos\nA mulher mais velha tem %d anos\nA mulher mais nova tem %d anos\na soma entre o homem mais velho com a mulher mais nova é %d\nO produto do homem mais novo com a mulher mais velha é %d",hv,hn,mv,mn,somaHvMn,prodHnMv);
+        in.close();
     }
 }

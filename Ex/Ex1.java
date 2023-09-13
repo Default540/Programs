@@ -21,6 +21,6 @@ public class Ex1 {
             totalCaixas = totalCaixas+1;
         }
         System.out.printf("O total de caixas que é possivel colocar é %d\nresto: %f\n",totalCaixas,resto);
-
+        in.close();
     }
 }

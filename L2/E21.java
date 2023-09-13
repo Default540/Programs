@@ -16,6 +16,8 @@ public class E21 {
         float litrosTotal = distanciaTotal/consumo;
 
         float quantLreabast = litrosTotal/numeroDeReabastecimentos;
+        
+        //float quantLreabast = comprimentoPista*numeroDeVoltas/1000/consumo/numeroDeReabastecimentos;
 
         System.out.println("É necessario abastecer "+quantLreabast+"L");
 

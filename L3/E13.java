@@ -10,6 +10,7 @@ public class E13 {
         int quant = in.nextInt();
         float preco = in.nextFloat();
         float desc = 0;
+        
         if (quant <= 5) {
             desc = 0.02f;
         }else if (quant <= 10) {

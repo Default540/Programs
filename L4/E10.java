@@ -11,10 +11,10 @@ public class E10 {
     public static void main(String[] args) {
         final Scanner in = new Scanner(System.in);
         float salario = 0;
+
         
         do{
             salario = in.nextFloat();
-            
         }while(salario <= 0);
 
         System.out.println(salario);
